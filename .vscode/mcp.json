@@ -1,0 +1,25 @@
+{
+    "servers": {
+        "my-mcp-server-c242b993": {
+            "url": "http://20.115.90.158:8000/mcp"
+        },
+        "my-mcp-server-11711971": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "mcp-remote",
+                "http://20.115.90.158:8000/mcp",
+                "--allow-http"
+            ]
+        },
+        "my-mcp-server-b170ae6c": {
+            "url": "http://20.115.90.158:8000"
+        },
+        "my-mcp-server-66ceb4ab": {
+            "url": "http://0.0.0.0:8000"
+        },
+        "my-mcp-server-15ef40e1": {
+            "url": "http://0.0.0.0:8000/mcp"
+        }
+    }
+}
